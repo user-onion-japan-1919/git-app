@@ -70,5 +70,9 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
-
-gem 'pry-rails'
+ orm_adapter (0.5.0)
+    pry (0.15.0)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    pry-rails (0.3.11)
+      pry (>= 0.13.0)
